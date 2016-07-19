@@ -1,0 +1,911 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 14px;
+    background-image: url(images/bg.png);
+}
+
+a
+{
+    text-decoration: none!important;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+/*    width: 980px;*/
+    width: 73%;
+    height: 100%;
+    background-color: #EFF1F0;
+}
+
+#myCarousel
+{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{
+    width: 100%!important;
+    height: auto;
+    width: auto\9;
+}
+
+#carouselControl 
+{
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    background-color: #53B8C4;
+}
+
+.carousel-control
+{
+    position: absolute;
+    top: 93%;
+    bottom: 0px;
+    left: 0;
+    width: 5%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.carousel-control.left, .carousel-control.right
+{
+    background-image: none!important;
+}
+
+.carousel-control.left
+{
+    left: 88%;
+}
+
+.carousel-control.right
+{
+    right: 4%;
+}
+
+#myCarousel .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 30px;
+    height: 25px;
+    margin-top: -15px;
+    font-size: 25px;
+    line-height: 25px;
+    z-index: 1;
+}
+
+.carousel-caption
+{
+    width: 40%;
+    left: -5%;
+    bottom: 15%;
+    font-weight: bold;
+}
+
+.carousel-caption .small-cap
+{
+    font-size: 3em;
+    display: block;
+}
+
+.carousel-caption .big-cap
+{
+    font-size: 4em;
+}
+
+.carousel-caption .plus
+{
+    background-color: #53B8C4;
+    color: #ffffff;
+    display: inline;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 2%;
+    position: absolute;
+    top: 110px;
+    width: 35px;
+}
+
+#authentication
+{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1% 2%;
+    font-size: 1em;
+    background-color: rgba(190,212,223, .6);
+    color: #000000;
+    z-index: 2;
+}
+
+#authentication .glyphicon.glyphicon-menu-right
+{
+    color: #ffffff;
+    font-size: 10px;
+    padding-right: 1.5%;
+}
+
+#authentication .auth
+{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.dropdown
+{
+    position: static;
+}
+
+.dropdown-menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 100%;
+    padding: 4% 1%;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu img
+{
+    width: 60px;
+    height: 65px;
+}
+
+#loginForm input
+{
+    display: block;
+    margin: 1.2% 0%;
+    color: #ffffff;
+    background-color: #CCCCCC;
+}
+
+::-webkit-input-placeholder
+{
+  font-size: 12px;
+  color: #ffffff;
+    padding-left: 5%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 12px;
+  color: #ffffff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 12px;
+  color: #ffffff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#submit
+{
+    width: 60px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #52B8C4;
+    color: #ffffff;
+}
+
+#logo
+{
+    width: 93%;
+    margin: 2%;
+    padding: 2%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #53B8C4;
+}
+
+#logo .left-half
+{
+    padding: 1%;
+    background-color: #000000;
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+}
+
+#content
+{
+    width: 93%;
+    margin: inherit;
+}
+
+.article
+{
+    width: 450px;
+    display: inline-table;
+    clear: both;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.article:nth-child(odd)
+{
+    margin-right: 3px;
+}
+
+.article:nth-child(even)
+{
+    margin-left: 3px;
+}
+
+.large-number
+{
+    background-color: #53B8C4;
+    color: #ffffff;
+/*    width: 115px;*/
+    width: 24.6%;
+    height: 112px;
+    margin: 0 0 1.5% 0;
+    font-size: 40px;
+    line-height: 112px;
+    text-align: center;
+    float: left;
+}
+
+.article-content
+{
+    width: 335px;
+    height: 112px;
+    display: inline;
+    float: left;
+    padding-left: 3%;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.article-heading
+{
+    font-size: 40px;
+    color: #666666;
+}
+
+.extend {
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: -75px;
+    right: 15px;
+    
+}   
+.extend:before {
+    content: '';  
+    width: 15px;
+    height: 1px;
+    border-top: 2px solid #53B8C4;
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 9px;
+}
+.extend:after {
+    content: '';  
+    width: 1px;
+    height: 15px;
+    border-right: 2px solid #53B8C4;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.article .extend.changed:after { 
+/* this selector is more specific, so it takes precedence over the other :after */
+    border: 0px solid #53B8C4;
+}
+
+.article > p
+{
+    display: none;
+    width: 74.5%;
+    padding-left: 3%;
+    margin: 125px 0 0 25.5%;
+    font-size: 12px;
+    color: #999999;
+}
+
+#small-buttons
+{
+    width: 93%;
+    margin: inherit;
+}
+
+.small-button-article
+{
+    width: 20%;
+    display: inline-table;
+    margin: 0 1% 2% 0;
+}
+
+.small-article-heading
+{
+/*    width: 160px;*/
+    font-size: 20px;
+    text-decoration: underline;
+    color: #53B8C4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+#small-buttons .extend {
+    position: relative;
+    top: -21px;
+    right: 0px;
+    background-color: #53B8C4;
+}
+
+#small-buttons .extend:before {
+    content: '';  
+    width: 14px;
+    height: 1px;
+    border-top: 2px solid #ffffff;
+    display: block;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 3px;
+}
+#small-buttons .extend:after {
+    content: '';  
+    width: 1px;
+    height: 13px;
+    border-right: 2px solid #ffffff;
+    display: block;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+.small-button-article .extend.changed:after { 
+/* this selector is more specific, so it takes precedence over the other :after */
+    border: 0px solid #ffffff;
+}
+
+.small-button-article > p
+{
+    display: none;
+    width: 100%;
+    padding: 10%;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #53B8C4;
+    margin-left: 9%;
+}
+
+.small-button-article p span.glyphicon.glyphicon-chevron-right {
+    left: 120px;
+    top: 15px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#more
+{
+    width: 93%;
+    margin: 2% auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #53B8C4;
+    cursor: pointer;
+}
+
+#footerCarousel
+{
+    width: 93%;
+    height: 185px;
+    margin: inherit;
+    background-color: #ffffff;
+    margin-bottom: 5%;
+}
+
+.small-triangle
+{
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #53B8C4;
+    -ms-transform: rotate(-135deg); /* IE 9 */
+    -webkit-transform: rotate(-135deg); /* Chrome, Safari, Opera */
+    transform: rotate(-135deg);
+    position: relative;
+    top: -135px;
+    left: -10px;
+}
+
+#bottomCarousel
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+#bottomCarousel .carousel-inner {
+    height: 100%;
+}
+
+#bottomCarousel .item
+{
+    top: 35%;
+    left: 5%;
+}
+
+#bottomCarousel img
+{
+    max-width: 20%;
+    height: auto;
+}
+
+#bottomCarousel #carouselControl
+{
+    width: 15%;
+    background-color: transparent!important;
+}
+ 
+#bottomCarousel #carouselControl .carousel-control
+{
+    position: absolute;
+    top: 25%;
+    width: 3%;
+}
+
+#bottomCarousel #carouselControl .carousel-control.left
+{
+    position: relative;
+    top: 41%;
+    width: 3%;
+    left: 11%;
+}
+
+#bottomCarousel #carouselControl .carousel-control.right
+{
+    position: relative;
+    top: 41%;
+    width: 3%;
+    left: 35%;
+}
+
+#bottomCarousel #carouselControl span.glyphicon.glyphicon-chevron-left, #bottomCarousel #carouselControl span.glyphicon.glyphicon-chevron-right {
+    background-color: #53B8C4;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#bottomCarousel .carousel-caption {
+    width: 50%;
+    left: 20%;
+    top: -30%;
+    padding-left: 2%;
+    text-align: justify;
+    color: #999999;
+    font-weight: normal;
+    font-size: 0.95vw;
+    text-shadow: none;
+}
+
+.caption-heading {
+    font-size: 2.5em;
+    color: #666666;
+    position: absolute;
+    top: -75%;
+    margin: 1%;
+}
+
+.big-triangle
+{
+    width: 0; 
+    height: 0; 
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-left: 110px solid #53B8C4;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    position: absolute;
+    top: 36px;
+    right: -16px;
+}
+
+#read-article {
+    position: absolute;
+    color: #ffffff;
+    right: 10px;
+    top: 160px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1350px)
+{
+    #logo {
+        font-size: 5vw;
+    }
+    #content
+    {
+        width: 100%;
+    }
+        .article
+        {
+            width: 100%;
+            margin: 0!important;
+        }
+        .article-content
+        {
+            width: 88.3%;
+        }
+        .article > p
+        {
+            width: 40.3%;
+            padding-left: 3%;
+            margin: 13% 0 1% 11.5%;
+        }
+        .article-heading
+        {
+            font-size: 2em;
+        }
+        .large-number
+        {
+            width: 11.7%;
+            height: calc(100-1.5%);
+            font-size: 2em;
+        }
+        .small-button-article {
+            width: 30%;
+            display: inline-table;
+            margin: 0 5% 2%;
+        }
+        #small-buttons .extend {
+            right: -20px;
+            position: relative;
+        }
+        .small-button-article p span.glyphicon.glyphicon-chevron-right
+        {
+            left: 75px;
+        }
+}
+
+@media screen and (max-width: 1255px)
+{
+    #bottomCarousel .carousel-caption {
+        width: 44%;
+        left: 23%;
+        top: -47%;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 1120px)
+{
+    .small-button-article p span.glyphicon.glyphicon-chevron-right {
+        left: 15px;
+    }
+    .big-triangle
+    {
+        display: none;
+    }
+    #read-article
+    {
+        color: #53B8C4;
+        font-size: 0.8em;
+    }
+    #read-article .glyphicon.glyphicon-chevron-right
+    {
+        display: none;
+    }
+    #bottomCarousel img
+    {
+        width: 180px!important;
+        height: auto;
+        width: auto\9;
+        max-width: none;
+        left: 53%;
+        position: absolute;
+        top: -2%;
+    }
+    .small-triangle {
+        position: relative;
+        top: -39px;
+        left: -11px;
+    }
+    #bottomCarousel .caption-heading
+    {
+        margin: -7% 0 0 4%;
+    }
+    #bottomCarousel .carousel-caption {
+        width: 51%;
+        margin: -4% 0 0px -22%;
+        display: block;
+        position: relative;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    #authentication
+    {
+        width: 100%;
+        opacity: 1;
+        background-color: #53B8C4;
+    }
+    #bottomCarousel #carouselControl {
+        width: 20%;
+        background-color: transparent!important;
+        top: 90%;
+        font-size: 1.5em;
+    }
+    #authentication
+    {
+        font-size: 1.2em;
+    }
+    .caption-heading
+    {
+        font-size: 1.7em;
+    }
+    #small-buttons .extend
+    {
+        right: -20px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .article > p
+    {
+        width: 88.3%;
+        padding-left: 3%;
+        margin: 13% 0 1% 9.5%;
+    }
+    .small-button-article > p {
+        width: 155px;
+    }
+    .carousel-caption
+    {
+        width: 40%;
+        top: 15%;
+        left: 0%;
+        bottom: 15%;
+        font-weight: bold;
+    }
+    .carousel-caption .small-cap
+    {
+        font-size: 1em;
+    }
+    .carousel-caption .big-cap
+    {
+        font-size: 1.5em;
+    }
+    .carousel-caption .plus
+    {
+        font-size: 25px;
+        line-height: 25px;
+        top: 40px;
+        width: 25px;
+    }
+    #bottomCarousel #carouselControl {
+        width: 100%!important;
+        background-color: transparent!important;
+        top: 90%;
+        font-size: 1.5em;
+    }
+    .carousel-control
+    {
+        top: 86%;
+        font-size: 1em;
+    }
+    #myCarousel .carousel-control.left
+    {
+        left: 4%;
+    }
+    #bottomCarousel #carouselControl .carousel-control.left {
+        left: 2%;
+    }
+    #bottomCarousel #carouselControl .carousel-control.right {
+        position: relative;
+        top: 41%;
+        width: 3%;
+        left: 98%;
+    }
+    #small-buttons .extend
+    {
+        right: -20px;
+        position: relative;
+    }
+    .small-button-article p span.glyphicon.glyphicon-chevron-right {
+        left: 10px;
+    }
+    #authentication
+    {
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    .small-button-article {
+        width: 15%;
+        margin: 0 5% 0 0;
+    }
+    .small-article-heading {
+        font-size: 1em;
+        text-align: center;
+    }
+    #small-buttons .extend {
+        right: -20%;
+        position: relative;
+    }
+    .small-triangle
+    {
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 50px solid #53B8C4;
+    }
+    #bottomCarousel .carousel-caption {
+        width: 40%;
+        font-size: 1.3vw;
+    }
+    #bottomCarousel img {
+        width: 150px!important;
+        height: auto;
+        width: auto\9;
+        max-width: none;
+        left: 45%;
+        position: absolute;
+        top: -2%;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .large-number
+    {
+        font-size: 1.5em;
+    }
+    .article-content
+    {
+        font-size: 0.8em;
+    }
+    #authentication
+    {
+        font-size: 0.9em;
+    }
+    #authentication .glyphicon.glyphicon-menu-right
+    {
+        font-size: 0.8em;
+    }
+    #small-buttons .extend {
+        position: relative;
+        top: -17px;
+        right: 0px;
+        background-color: #53B8C4;
+        width: 14px;
+        height: 16px;
+        float: right;
+    }
+    #small-buttons .extend:after {
+        content: '';
+        width: 1px;
+        height: 8px;
+        border-right: 2px solid #ffffff;
+        display: block;
+        position: absolute;
+        margin-top: 4px;
+        margin-left: 6px;
+    }
+    #small-buttons .extend:before {
+        content: '';
+        width: 8px;
+        height: 1px;
+        border-top: 2px solid #ffffff;
+        display: block;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 3px;
+    }
+    .small-button-article {
+        width: 10%;
+        font-size: 3vw;
+        margin: 0 1% 0 0;
+    }
+    #bottomCarousel .caption-heading {
+        margin: -12% 0 0 4%;
+        font-size: 4.5vw;
+    }
+    #bottomCarousel img {
+        width: 130px!important;
+        left: 45%;
+        top: -2%;
+    }
+    #bottomCarousel .carousel-caption {
+        width: 40%;
+        font-size: 2vw;
+    }
+    .small-button-article > p {
+        display: none;
+        width: 200px;
+        padding: 10%;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #53B8C4;
+    }
+
+}
+
+@media screen and (max-width: 420px)
+{
+    #bottomCarousel img
+    {
+        width: 100px!important;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1580px)
+{
+    #content
+    {
+       width: 90%;
+    }
+    .small-triangle
+    {
+        top: -76%;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px)
+{
+    #content
+    {
+       width: 83%;
+    }
+}
+
+@media screen and (min-width: 1801px)
+{
+    #content
+    {
+       width: 73%;
+    }
+    .small-triangle
+    {
+        top: -84%;
+        left: -1%;
+    }
+}
